@@ -1,0 +1,78 @@
+.profile-photo {
+  width: 100%;
+  max-width: 450px;
+  height: auto;
+  display: block;
+  margin: 0 auto 24px;
+}
+
+main {
+  /* Space above the page content */
+  padding-top: 32px;
+  /* Space below the page content */
+  padding-bottom: 32px;
+  /* Space inside the left edge */
+  padding-left: 40px;  
+  /* Space inside the right edge */
+  padding-right: 40px;  
+
+  /* OR 32px top/bottom, 40px left/right 
+  padding: 32px 40px; 
+  */
+
+}
+
+/* Space between my name and the row */
+h1{
+  margin-bottom: 24px; 
+}
+
+/* Space before headings immediately following paragraphs */
+p + h2 {
+  margin-top: 24px;
+}
+
+/* Separate the links from the Languages section */
+footer {
+  margin-top: 24px; 
+}
+
+body {
+  background-color: #24232b;
+  color: #f1edf5;
+}
+
+/*link*/
+a {
+  color: #c8b6ff;
+}
+
+/* Course table size and colors */
+.course-table {
+  width: 100%;
+  border-collapse: collapse;
+  background-color: #24232b;
+  color: #f1edf5;
+  /* Keep columns readable on narrow screens */
+  /* min-width: 600px;  */
+}
+
+/* Table description */
+.course-table caption {
+  caption-side: top;
+  color: #f1edf5;
+}
+
+/* Add spacing and borders to each cell */
+.course-table th,
+.course-table td {
+  padding: 12px;
+  border: 1px solid #827b94;
+  text-align: left;
+  vertical-align: top;
+}
+
+/* Distinguish the column headings */
+.course-table thead {
+  background-color: #393442;
+}
